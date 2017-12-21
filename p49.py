@@ -41,5 +41,5 @@ for prime in primes:
         for a in sequence:
             for b in sequence[sequence.index(a)+1:]:
                 if b + b - a in sequence and a!=b:
-                    print(a, b, 2*b-a, b-a)
+                    print(a, b, 2*b-a,"D=",b-a)
 
